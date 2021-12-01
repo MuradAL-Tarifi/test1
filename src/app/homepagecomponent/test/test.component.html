@@ -1,0 +1,17 @@
+<input
+  (change)="change()"
+  type="text"
+  placeholder="your String"
+  [(ngModel)]="AnyNumber"
+/>
+<input type="text" placeholder="your first name" [(ngModel)]="fname" />
+<input type="text" placeholder="your last name" [(ngModel)]="lname" />
+
+<button (click)="Ok()">OK</button>
+<button (click)="Reset()">Reset</button>
+
+<h1 *ngIf="inputstate">Fist name is : {{ fname }}</h1>
+<h1 *ngIf="inputstate">Last email is : {{ lname }}</h1>
+<!-- 
+<input type="text" [formControl]="firstname" [value]="firstname" />
+<BUTton (click)="getAll()">Get All</BUTton> -->

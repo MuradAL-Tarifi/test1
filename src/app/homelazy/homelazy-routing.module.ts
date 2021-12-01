@@ -6,6 +6,7 @@ import { HomepagecomponentComponent } from '../homepagecomponent/homepagecompone
 import { NavbarcomponentComponent } from '../homepagecomponent/navbarcomponent/navbarcomponent.component';
 import { PortfoliocomponentComponent } from '../homepagecomponent/portfoliocomponent/portfoliocomponent.component';
 import { ServicescomponentComponent } from '../homepagecomponent/servicescomponent/servicescomponent.component';
+import { TestComponent } from '../homepagecomponent/test/test.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'Portfolio',
     component: PortfoliocomponentComponent,
+  },
+  {
+    path: 'footer',
+    component: TestComponent,
   },
 ];
 
